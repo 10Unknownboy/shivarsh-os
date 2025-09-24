@@ -21,24 +21,6 @@ const MusicCardGallery: React.FC = () => {
       title: 'Song',
       artist: 'Artist',
       localAudioSrc: '/files/database/songs/song3.mp3'
-    },
-    {
-      image: '/files/database/images/memory4.jpg',
-      title: 'Song',
-      artist: 'Artist',
-      localAudioSrc: '/files/database/songs/song4.mp3'
-    },
-    {
-      image: '/files/database/images/memory5.jpg',
-      title: 'Song',
-      artist: 'Artist',
-      localAudioSrc: '/files/database/songs/song5.mp3'
-    },
-    {
-      image: '/files/database/images/memory6.jpg',
-      title: 'Song',
-      artist: 'Artist',
-      localAudioSrc: '/files/database/songs/song6.mp3'
     }
   ];
 
