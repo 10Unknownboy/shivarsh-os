@@ -52,7 +52,6 @@ const TerminalLove: React.FC = () => {
       '  quote            Romantic quote of the day',
       '  song             Suggest a romantic song',
       '  future           Predict your romantic future',
-      '  stats            Show relationship statistics',
       '  mood             Set romantic mood',
       '  weather          Love weather forecast',
       '  time             Show love time',
@@ -100,16 +99,6 @@ const TerminalLove: React.FC = () => {
     ],
     future: () => [
       futures[Math.floor(Math.random() * futures.length)],
-      ''
-    ],
-    stats: () => [
-      '💕 Your Love Stats:',
-      '  Days together: xyz',
-      '  Messages sent: xyz',
-      '  Calls made: xyz',
-      '  Emojis shared: xyz',
-      '  "I love you" count: xyz',
-      '  Happiness level: Infinite 💖',
       ''
     ],
     mood: () => [
