@@ -164,15 +164,15 @@ const LoveWrapped: React.FC = () => {
             Your Love Story
           </h2>
           <p className="text-xl md:text-2xl text-gray-700 mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            xyz days of magic, laughter, and endless love 💕
+            1189 days of magic, laughter, and endless love 💕
           </p>
           <div className="flex justify-center items-center space-x-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="w-24 h-24 bg-gradient-to-br from-pink-400 to-rose-500 rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-lg animate-pulse">
-              A
+              S
             </div>
             <Heart className="text-pink-500 animate-pulse" size={48} />
             <div className="w-24 h-24 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-lg animate-pulse">
-              B
+              U
             </div>
           </div>
         </div>
@@ -216,22 +216,22 @@ const LoveWrapped: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           <div className="glass-effect rounded-2xl p-6 text-center">
             <MessageSquare className="mx-auto text-pink-500 mb-2" size={32} />
-            <div className="text-2xl font-bold text-pink-600">xyz</div>
+            <div className="text-2xl font-bold text-pink-600">573542</div>
             <div className="text-sm text-gray-600">Messages</div>
           </div>
           <div className="glass-effect rounded-2xl p-6 text-center">
             <Phone className="mx-auto text-rose-500 mb-2" size={32} />
-            <div className="text-2xl font-bold text-rose-600">xyz</div>
+            <div className="text-2xl font-bold text-rose-600">548</div>
             <div className="text-sm text-gray-600">Calls</div>
           </div>
           <div className="glass-effect rounded-2xl p-6 text-center">
             <Heart className="mx-auto text-purple-500 mb-2" size={32} />
-            <div className="text-2xl font-bold text-purple-600">xyz</div>
+            <div className="text-2xl font-bold text-purple-600">99% of infinite</div>
             <div className="text-sm text-gray-600">Love Words</div>
           </div>
           <div className="glass-effect rounded-2xl p-6 text-center">
             <Calendar className="mx-auto text-pink-400 mb-2" size={32} />
-            <div className="text-2xl font-bold text-pink-600">xyz</div>
+            <div className="text-2xl font-bold text-pink-600">1189</div>
             <div className="text-sm text-gray-600">Days Together</div>
           </div>
         </div>
@@ -251,27 +251,27 @@ const LoveWrapped: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="text-center">
               <div className="text-6xl mb-4">👩</div>
-              <h4 className="text-xl font-bold text-pink-600 mb-4">xyz (A)</h4>
+              <h4 className="text-xl font-bold text-pink-600 mb-4">Her</h4>
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Words:</span>
-                  <span className="font-bold text-pink-600">xyz</span>
+                  <span className="font-bold text-pink-600">86659</span>
                 </div>
                 <div className="w-full bg-pink-100 rounded-full h-3">
-                  <div className="bg-pink-500 h-3 rounded-full" style={{ width: '69%' }}></div>
+                  <div className="bg-pink-500 h-3 rounded-full" style={{ width: '64%' }}></div>
                 </div>
               </div>
             </div>
             <div className="text-center">
               <div className="text-6xl mb-4">👨</div>
-              <h4 className="text-xl font-bold text-blue-600 mb-4">xyz (B)</h4>
+              <h4 className="text-xl font-bold text-blue-600 mb-4">Him</h4>
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Words:</span>
-                  <span className="font-bold text-blue-600">xyz</span>
+                  <span className="font-bold text-blue-600">5769</span>
                 </div>
                 <div className="w-full bg-blue-100 rounded-full h-3">
-                  <div className="bg-blue-500 h-3 rounded-full" style={{ width: '69%' }}></div>
+                  <div className="bg-blue-500 h-3 rounded-full" style={{ width: '44%' }}></div>
                 </div>
               </div>
             </div>
