@@ -14,67 +14,67 @@ const GuessTheMoment: React.FC = () => {
   const loveQuestions = [
     {
       question: "How much we have messaged in total?",
-      options: ["600,000", "150,000", "650,000", "400,000"],
-      correct: 2,
-      emoji: "💬"
+      options: ["Nhai batana", "0", "Infinite", "idc, love love matters"],
+      correct: 3,
+      emoji: "💟"
     },
     {
       question: "Which emoji we have used the most?",
-      options: ["♥", "😭", "🫠", "🙂"],
-      correct: 1,
+      options: ["😏", "😤", "😒", "🙂"],
+      correct: 2,
       emoji: "😭"
     },
     {
       question: "Who uses more words per message?",
-      options: ["xyz", "xyz", "Equal"],
-      correct: 0,
+      options: ["Him", "Her", "Equal" , "Depends" ],
+      correct: 3,
       emoji: "📝"
     },
     {
       question: "Who has criticized more?",
-      options: ["xyz", "xyz", "Equal"],
-      correct: 2,
+      options: ["Him", "Her", "Equal"],
+      correct: 0,
       emoji: "🤔"
     },
     {
-      question: "Who has complimented more?",
-      options: ["xyz", "xyz", "Equal"],
+      question: "Who is more beautiful?",
+      options: ["Him", "Her", "Both"],
       correct: 1,
       emoji: "🥰"
     },
     {
-      question: "Who has messaged more?",
-      options: ["xyz", "xyz", "Equal"],
-      correct: 0,
-      emoji: "📱"
+      question: "Who care's more?",
+      options: ["Her", "Him", "Mutlabi duniya" , "Both are careless"],
+      correct: 1,
+      emoji: "🥹"
     },
     {
-      question: "Most used word of xyz?",
-      options: ["Hi", "Bye", "No", "shut up"],
+      question: "Most used word of her?",
+      options: ["Meri baat toh mannni hi nhi h", "Thum", "Aap", "Bhaago yha se"],
       correct: 0,
       emoji: "🗣️"
     },
     {
-      question: "Most used word of xyz?",
-      options: ["YOO", "damnn", "sorry", "love you"],
-      correct: 3,
-      emoji: "💭"
-    },
-    {
-      question: "Do we have same interest love?",
-      options: ["Yes", "No"],
-      correct: 1,
-      emoji: "🎯"
-    },
-    {
-      question: "Who is more supportive?",
-      options: ["xyz", "xyz"],
+      question: "Most used word of him?",
+      options: ["MOTI", "GADHI", "PAGLI", "Babu , sona"],
       correct: 0,
-      emoji: "🤝"
+      emoji: "🎅🏻"
     },
     {
-      question: "Advice for xyz in relationship that xyz wants to give?",
-      options: ["continue being supportive", "more openness to feelings", "have more patience", "I like him as he is!!"],
+      question: "Who is more sensitive?",
+      options: ["Her", "Him"],
+      correct: 0,
+      emoji: "💔"
+    },
+    {
+      question: "Who is a Cry baby?",
+      options: ["Him", "Her"],
+      correct: 1,
+      emoji: "🫡"
+    },
+    {
+      question: "For him what: hate + sadness + bad mood = ",
+      options: ["Her smile", "Her eyes", "Her voice", "She"],
       correct: 3,
       emoji: "💝"
     }

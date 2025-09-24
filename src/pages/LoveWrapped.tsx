@@ -8,24 +8,21 @@ const LoveWrapped: React.FC = () => {
   const [showMemories, setShowMemories] = useState(false);
 
   const relationshipStats = [
-    { title: "Days Together", value: "xyz", subtitle: "and counting... 💕", icon: "📅", type: "counter" },
-    { title: "Relationship Started", value: "zz yyy 20xx", subtitle: "best decision ever", icon: "🌟", type: "date" },
-    { title: "First Date", value: "xxyyzzzz", subtitle: "Christmas magic ✨", icon: "🎄", type: "date" },
-    { title: "First Kiss", value: "xyz", subtitle: "butterflies everywhere", icon: "💋", type: "location" },
-    { title: "First Hug", value: "xyz", subtitle: "home in your arms", icon: "🤗", type: "location" },
-    { title: "Best Day", value: "xx yy zzzz", subtitle: "guess what happened... 😉", icon: "🎉", type: "date" },
-    { title: "Most Used Word", value: "xyz", subtitle: "so stubborn! 😂", icon: "💬", type: "text" },
-    { title: "Total Messages", value: "xyz", subtitle: "never running out of words", icon: "📱", type: "progress", max: 700000 },
-    { title: "Her Words", value: "xyz", subtitle: "always has more to say 💖", icon: "👩‍💋‍👨", type: "progress", max: 40000 },
-    { title: "His Words", value: "xyz", subtitle: "quality over quantity 😎", icon: "👨‍💋‍👩", type: "progress", max: 40000 },
-    { title: "Reels Shared", value: "xyz", subtitle: "sharing laughs daily", icon: "🎬", type: "progress", max: 20000 },
-    { title: "Love Count", value: "xyz", subtitle: "never enough I love yous", icon: "❤️", type: "progress", max: 15000 },
-    { title: "I Love You Count", value: "xyz", subtitle: "the perfect number 😏", icon: "💘", type: "counter" },
-    { title: "Busiest Day", value: "xyz", subtitle: "starting weeks with love", icon: "📆", type: "text" },
-    { title: "Longest Call", value: "xyz", subtitle: "time flies when you're happy", icon: "📞", type: "counter" },
-    { title: "Total Calls", value: "xyz", subtitle: "hearing your voice daily", icon: "☎️", type: "progress", max: 500 },
-    { title: "Emojis Sent", value: "xyz", subtitle: "expressing love in pixels", icon: "😍", type: "progress", max: 5000 },
-    { title: "Top Song", value: "xyz", subtitle: "xyz", icon: "🎵", type: "text" }
+    { title: "The Glimpse ✨", value: "A Memory", subtitle: "when eyes first met... 💫", icon: "👁️", type: "text" },
+    { title: "Sharp Glance 💔", value: "Cut Deep", subtitle: "her eyes of pride spoke volumes", icon: "⚡", type: "text" },
+    { title: "Cold Retreat ❄️", value: "Distance", subtitle: "the shift in stance, bitter defeat", icon: "🌨️", type: "text" },
+    { title: "Silent Storm 🌪️", value: "Growing", subtitle: "disdain rising, words unspoken", icon: "⛈️", type: "text" },
+    { title: "Rigid Lines 📏", value: "Her Face", subtitle: "distant shadows in my mind", icon: "😔", type: "text" },
+    { title: "Unsung Pain 🎵", value: "Silent", subtitle: "words never spoken, yet it stung", icon: "🤐", type: "text" },
+    { title: "Standing Still 🕴️", value: "In Rejection", subtitle: "letting the hurt rise as it will", icon: "💔", type: "text" },
+    { title: "Heart Like Sea 🌊", value: "Endless", subtitle: "you're the shine upon my waves", icon: "✨", type: "text" },
+    { title: "Depth of Mine ⛏️", value: "How Deep?", subtitle: "can you go into my heart?", icon: "💎", type: "text" },
+    { title: "Shrinking Days 📉", value: "Day by Day", subtitle: "fading but still hoping...", icon: "🥀", type: "progress", max: 100 },
+    { title: "Random Time ⏰", value: "Anytime", subtitle: "just come to me, I'll be here", icon: "🕐", type: "text" },
+    { title: "Following You 👣", value: "Until Death", subtitle: "my eternal promise to you", icon: "💀", type: "text" },
+    { title: "Consequences 🎭", value: "Whatever Comes", subtitle: "I'll face them all for you", icon: "⚔️", type: "text" },
+    { title: "Happy Smile 😊", value: "Always", subtitle: "even through the pain ♥", icon: "😁", type: "text" },
+    { title: "Love Declaration 💕", value: "Eternal", subtitle: "my heart belongs to you ♥♥", icon: "💖", type: "text" }
   ];
 
   const getProgressPercentage = (value: string, max: number) => {
