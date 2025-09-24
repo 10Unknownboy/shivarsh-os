@@ -205,10 +205,10 @@ const LoveWrapped: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 pb-16">
         <div className="text-center mb-12">
           <h3 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-            Love Analytics Dashboard 📊
+            A poem for you my love 🥰
           </h3>
           <p className="text-xl text-gray-700">
-            Your relationship by the numbers
+            🎶🎶🎶
           </p>
         </div>
 
