@@ -8,22 +8,9 @@ const LoveWrapped: React.FC = () => {
   const [showMemories, setShowMemories] = useState(false);
 
   const relationshipStats = [
-    { title: "The Glimpse ✨", value: "A Memory", subtitle: "when eyes first met... 💫", icon: "👁️", type: "text" },
-    { title: "Sharp Glance 💔", value: "Cut Deep", subtitle: "her eyes of pride spoke volumes", icon: "⚡", type: "text" },
-    { title: "Cold Retreat ❄️", value: "Distance", subtitle: "the shift in stance, bitter defeat", icon: "🌨️", type: "text" },
-    { title: "Silent Storm 🌪️", value: "Growing", subtitle: "disdain rising, words unspoken", icon: "⛈️", type: "text" },
-    { title: "Rigid Lines 📏", value: "Her Face", subtitle: "distant shadows in my mind", icon: "😔", type: "text" },
-    { title: "Unsung Pain 🎵", value: "Silent", subtitle: "words never spoken, yet it stung", icon: "🤐", type: "text" },
-    { title: "Standing Still 🕴️", value: "In Rejection", subtitle: "letting the hurt rise as it will", icon: "💔", type: "text" },
-    { title: "Heart Like Sea 🌊", value: "Endless", subtitle: "you're the shine upon my waves", icon: "✨", type: "text" },
-    { title: "Depth of Mine ⛏️", value: "How Deep?", subtitle: "can you go into my heart?", icon: "💎", type: "text" },
-    { title: "Shrinking Days 📉", value: "Day by Day", subtitle: "fading but still hoping...", icon: "🥀", type: "progress", max: 100 },
-    { title: "Random Time ⏰", value: "Anytime", subtitle: "just come to me, I'll be here", icon: "🕐", type: "text" },
-    { title: "Following You 👣", value: "Until Death", subtitle: "my eternal promise to you", icon: "💀", type: "text" },
-    { title: "Consequences 🎭", value: "Whatever Comes", subtitle: "I'll face them all for you", icon: "⚔️", type: "text" },
-    { title: "Happy Smile 😊", value: "Always", subtitle: "even through the pain ♥", icon: "😁", type: "text" },
-    { title: "Love Declaration 💕", value: "Eternal", subtitle: "my heart belongs to you ♥♥", icon: "💖", type: "text" }
+    { title: "The Glimpse 💫", value: "A glance so sharp, it cut me deep, her eyes of pride, no words to speak. The shift in stance, the cold retreat, a bitter air, a cruel defeat. I stood and watched, her disdain grow, a storm within began to show. Her distant face, her rigid line, left shadows stirring in my mind. No words were spoken, yet it stung, a silent pain, a song unsung. In her rejection, I stood still, and let the hurt rise, as it will. My heart is sea, you're a shine ✨ How deep can you go into heart of mine? I'm shrinking day by day 🥀 But just come to me at any random time ⏰ I will follow you until my death 👣 Whatever the consequences come ⚔️ I will take them with a happy smile 😊♥♥", subtitle: "a love that endures through pain", icon: "💔💖", type: "text" }
   ];
+
 
   const getProgressPercentage = (value: string, max: number) => {
     const numValue = parseInt(value.replace(/,/g, ''));
