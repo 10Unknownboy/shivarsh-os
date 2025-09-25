@@ -6,20 +6,20 @@ const MusicCardGallery: React.FC = () => {
   const musicMemories = [
     {
       image: '/files/database/images/memory1.jpg',
-      title: 'Song',
-      artist: 'Artist',
+      title: 'Tera mera payar amar',
+      artist: 'Lata Mangeshkar',
       localAudioSrc: '/files/database/songs/song1.mp3'
     },
     {
       image: '/files/database/images/memory2.jpg',
-      title: 'Song',
-      artist: 'Artist',
+      title: 'Itna na mujhse tu pyaar badha',
+      artist: 'Lata Mangeshkar',
       localAudioSrc: '/files/database/songs/song2.mp3'
     },
     {
       image: '/files/database/images/memory3.jpg',
-      title: 'Song',
-      artist: 'Artist',
+      title: 'Maand',
+      artist: 'Bayaan',
       localAudioSrc: '/files/database/songs/song3.mp3'
     }
   ];
